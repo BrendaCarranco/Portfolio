@@ -25,9 +25,9 @@
         <a href="#" data-target="mobile-menu" class="sidenav-trigger white-text">
           <i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down linkss">
-          <li><a class="black-text menu-links" href="#abt">Sobre mi</a></li>
-          <li><a class="black-text menu-links" href="#project-section">Proyectos</a></li>
-          <li><a class="black-text menu-links" href="#tech-section">Skills</a></li>
+          <li><a class="black-text menu-links" href="#about">Sobre mi</a></li>
+          <li><a class="black-text menu-links" href="#project">Proyectos</a></li>
+          <li><a class="black-text menu-links" href="#tech">Skills</a></li>
           <li><a class="black-text menu-links" href="#contact">Contacto</a></li>
         </ul>
       </div>
@@ -36,8 +36,8 @@
 
   <ul class="sidenav black-text" id="mobile-menu">
     <li><a class="black-text menu-links" href="#about-bren">Sobre mi</a></li>
-    <li><a class="black-text menu-links" href="#project-section">Proyectos</a></li>
-    <li><a class="black-text menu-links" href="#tech-section">Skills</a></li>
+    <li><a class="black-text menu-links" href="#project">Proyectos</a></li>
+    <li><a class="black-text menu-links" href="#tech">Skills</a></li>
     <li><a class="black-text menu-links" href="collapsible.html">Contacto</a></li>
   </ul>
   <div class="icon-git right">
@@ -54,7 +54,7 @@
   </section>
 
 
-  <section class="about-me row" id="abt">
+  <section class="about-me row" id="about">
     <div class="title-about">
       <img class="mg-title responsive-img" src="../images/union.svg" alt="nice to meet you">
     </div>
@@ -66,19 +66,18 @@
       </div>
 
       <div class="about-me-text col s8 m4 right">
-        <p class="bold-p">Soy entusiasta de la tecnología y las neurociencias. Me interesa participar en
-          proyectos que puedan tener
-          un impacto positivo y cambiar realidades.
+        <p class="bold-p">Soy apasionada por la
+          tecnología y la investigación, por lo que constantemente estoy buscando nuevos aprendizajes. 
+          Me gustaría combinar la programación con la psicología y poder
+          participar en proyectos disruptivos que tengan un impacto positivo en mi
+          comunidad.
         </p>
-        <p>
-          Mi primer acercamiento con el código fue en la universidad,
-          primero aprendí R, después me propuse a aprender Javascript y ¡me atrapó!
-        </p>
+
       </div>
     </div>
   </section>
 
-  <section class="projects row" id="project-section">
+  <section class="projects row" id="project">
 
     <div class="title-projects">
       <img class="pr-title responsive-img" src="../images/proyectos.svg" alt="projects">
@@ -88,7 +87,7 @@
       <div class="col s12 m5">
         <div class="card">
           <div class="card-image">
-            <img src="../images/civitas.png">
+            <img class='pic-project' src="../images/civitas.png">
             <span class="card-title blue-grey-text text-darken-4 civitas">Social Network <br>Civitas</span>
           </div>
           <div class="card-content">
@@ -105,7 +104,7 @@
       <div class="col s12 m5 right">
         <div class="card">
           <div class="card-image">
-            <img src="../images/mdlinkscode.png">
+            <img class='pic-project' src="../images/mdlinkscode.png">
             <span class="card-title white-text civitas">Md-links</span>
           </div>
           <div class="card-content">
@@ -117,16 +116,62 @@
           </div>
         </div>
       </div>
+
+    
+
+
+      <div class="col s12 m5">
+        <div class="card">
+          <div class="card-image">
+            <img class='pic-project' src="../images/bq.png">
+            <span class="card-title white-text">Burger Queen</span>
+          </div>
+          <div class="card-content">
+            <p class="p-cards">Tablet app desarrollada con React y Firebase, su objetivo es mejorar la toma
+               de pedidos en un restaurante al actualizar en tiempo real las ordenes y 
+              almancenar el status de la orden en Firestore.</p>
+          </div>
+          <div class="card-action">
+            <a href="https://github.com/BrendaCarranco/CDMX009-BurgerQueen">
+              github</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s12 m5 right">
+        <div class="card">
+          <div class="card-image">
+            <img class='pic-project' src="../images/cipherr.png">
+            <span class="card-title blue-grey-text text-darken-4 civitas">Cipher</span>
+          </div>
+          <div class="card-content">
+            <p class="p-cards">Cipher genera usuarios y códigos de acceso a la biblioteca digital de una escuela de manera remota,
+                funciona por medio del método cifrado César.</p>
+          </div>
+          <div class="card-action">
+            <a href="https://github.com/BrendaCarranco/CDMX009-cipher">
+              github</a>
+          </div>
+        </div>
+      </div>
+      
+
+
+
+
+
+
+
+
     </div>
 
   </section>
 
-  <section class="skills row" id="tech-section" >
+  <section class="skills row" id="tech" >
 
     <div class="title-tech-skills s3">
       <img class="ts-title responsive-img" src="../images/tech-skills.svg" alt="tech skills">
     </div>
-
     <div class="skill-icons row">
       <div class="col m12 center">
         <i class="devicon-html5-plain-wordmark colored icon-grid col m3"></i>
